@@ -17,12 +17,15 @@ function appendKitten(name){
 let result=kittens;
 result.push(name);
 return result;}
-function prependKitten(name){}
-function removeLastKitten(){}
-function removeFirstKitten(){}
+function prependKitten(name){
+  let result=kittens;result.unshift(name);return result;}
+function removeLastKitten(){
+  let result=kittens;result.pop();return result;}
+function removeFirstKitten(){
+  let result=kittens;result.shift();return result;}
   
 
 
-console.log(appendKitten('George'));
+//console.log(appendKitten('George'));
 
   
