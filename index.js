@@ -14,13 +14,9 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();}
   
 function appendKitten(name){
-let result=kittens;
-console.log(kittens);
-result.push(name);
-console.log(kittens);
-return result;}
+return [...kittens,name];}
 function prependKitten(name){
-  let result=kittens;result.unshift(name);return result;}
+  return [name,...kittens];}
 function removeLastKitten(){
   let result=kittens;result.pop();return result;}
 function removeFirstKitten(){
