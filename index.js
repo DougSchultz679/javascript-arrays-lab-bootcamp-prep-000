@@ -29,6 +29,6 @@ function removeFirstKitten(){
 
 
 console.log(appendKitten('Broom'));
-console.log(kittens);
+//console.log(kittens);
 
   
