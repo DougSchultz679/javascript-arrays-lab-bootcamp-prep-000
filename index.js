@@ -13,14 +13,15 @@ function destructivelyRemoveLastKitten(){
 function destructivelyRemoveFirstKitten(){
   kittens.shift();}
   
-function appendKitten(){
-function prependKitten(){
-function
-function
-
+function appendKitten(name){
+let result=kittens.push(name);
+  return result;}
+function prependKitten(name){}
+function removeLastKitten(){}
+function removeFirstKitten(){}
   
 
 
-  
+console.log(appendKitten('George'));
 
   
