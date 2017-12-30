@@ -26,6 +26,6 @@ function removeFirstKitten(){
   
 
 
-//console.log(appendKitten('George'));
+console.log(appendKitten('Broom'));
 
   
